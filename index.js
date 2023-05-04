@@ -5,4 +5,8 @@ function distanceFromHqInBlocks(num1){
 function distanceFromHqInBlocks(num2){
     return num2 = 8;
 }
-
+// function distanceFromHqInBlocks(num3){
+//     if(num3 <=43){
+//         return num3 = 8;
+//     }
+// }
