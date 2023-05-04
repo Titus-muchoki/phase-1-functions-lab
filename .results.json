@@ -2,46 +2,40 @@
   "stats": {
     "suites": 5,
     "tests": 13,
-    "passes": 1,
+    "passes": 2,
     "pending": 0,
-    "failures": 12,
-    "start": "2023-05-04T11:36:25.471Z",
-    "end": "2023-05-04T11:36:25.944Z",
-    "duration": 473
+    "failures": 11,
+    "start": "2023-05-04T11:42:19.765Z",
+    "end": "2023-05-04T11:42:20.235Z",
+    "duration": 470
   },
   "tests": [
     {
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
-      "duration": 1,
+      "duration": 2,
       "currentRetry": 0,
-      "err": {}
+      "err": {
+        "message": "expected 8 to equal 1",
+        "showDiff": true,
+        "actual": "8",
+        "expected": "1",
+        "stack": "AssertionError: expected 8 to equal 1\n    at Context.<anonymous> (test/indexTest.js:4:45)\n    at processImmediate (internal/timers.js:464:21)"
+      }
     },
     {
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 1 to equal 8",
-        "showDiff": true,
-        "actual": "1",
-        "expected": "8",
-        "stack": "AssertionError: expected 1 to equal 8\n    at Context.<anonymous> (test/indexTest.js:8:45)\n    at processImmediate (internal/timers.js:464:21)"
-      }
+      "err": {}
     },
     {
       "title": "calculates distances below 42nd street",
       "fullTitle": "index.js distanceFromHqInBlocks() calculates distances below 42nd street",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 1 to equal 8",
-        "showDiff": true,
-        "actual": "1",
-        "expected": "8",
-        "stack": "AssertionError: expected 1 to equal 8\n    at Context.<anonymous> (test/indexTest.js:12:45)\n    at processImmediate (internal/timers.js:464:21)"
-      }
+      "err": {}
     },
     {
       "title": "returns a distance in feet",
@@ -136,7 +130,7 @@
     {
       "title": "does not allow rides over 2500 feet",
       "fullTitle": "index.js calculatesFarePrice(start, destination) does not allow rides over 2500 feet",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: calculatesFarePrice is not defined\n    at Context.<anonymous> (test/indexTest.js:59:7)\n    at processImmediate (internal/timers.js:464:21)",
@@ -149,27 +143,14 @@
     {
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
-      "duration": 1,
+      "duration": 2,
       "currentRetry": 0,
       "err": {
-        "message": "expected 1 to equal 8",
+        "message": "expected 8 to equal 1",
         "showDiff": true,
-        "actual": "1",
-        "expected": "8",
-        "stack": "AssertionError: expected 1 to equal 8\n    at Context.<anonymous> (test/indexTest.js:8:45)\n    at processImmediate (internal/timers.js:464:21)"
-      }
-    },
-    {
-      "title": "calculates distances below 42nd street",
-      "fullTitle": "index.js distanceFromHqInBlocks() calculates distances below 42nd street",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 1 to equal 8",
-        "showDiff": true,
-        "actual": "1",
-        "expected": "8",
-        "stack": "AssertionError: expected 1 to equal 8\n    at Context.<anonymous> (test/indexTest.js:12:45)\n    at processImmediate (internal/timers.js:464:21)"
+        "actual": "8",
+        "expected": "1",
+        "stack": "AssertionError: expected 8 to equal 1\n    at Context.<anonymous> (test/indexTest.js:4:45)\n    at processImmediate (internal/timers.js:464:21)"
       }
     },
     {
@@ -265,7 +246,7 @@
     {
       "title": "does not allow rides over 2500 feet",
       "fullTitle": "index.js calculatesFarePrice(start, destination) does not allow rides over 2500 feet",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: calculatesFarePrice is not defined\n    at Context.<anonymous> (test/indexTest.js:59:7)\n    at processImmediate (internal/timers.js:464:21)",
@@ -277,7 +258,14 @@
     {
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
-      "duration": 1,
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "calculates distances below 42nd street",
+      "fullTitle": "index.js distanceFromHqInBlocks() calculates distances below 42nd street",
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     }
